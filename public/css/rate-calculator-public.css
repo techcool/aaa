@@ -1,0 +1,700 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.rc-body, .rc-body *{
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+line-height:30px;
+}
+
+.rc-body .clearfix{
+    clear:both;
+}
+
+.rc-body label{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.rc-body .row{
+    margin: 0;
+}
+
+.rc-body .rc-col-8{
+    padding: 10px 0;
+    float:left;
+    width: 100%;
+}
+
+.rc-body .rc-col-4{
+    padding: 10px 0;
+    float:left;
+    width: 100%;
+}
+
+.rc-body .rc-col-6{
+    padding: 10px 0;
+    float:left;
+    width: 100%;
+}
+
+.rc-body .rc-col-12{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.rc-body input, .rc-body select{
+    width: 100%;
+    height: 50px;
+    background-color: #f5f6f7!important;
+    border: 0;
+    margin: 0!important;
+    overflow: hidden;
+    text-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    padding-left: 15px;
+    color: black!important;
+    margin-bottom: 0!important;
+}
+
+.rc-body input.input-group{
+    padding-left: 40px;
+}
+
+.rc-body .input-group-addon {
+    padding: 0 12px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #a7acb6;
+    text-align: center;
+    vertical-align: middle;
+    width: 45px;
+    line-height: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.rc-loader{
+    height: 30px;
+    width: 30px;
+}
+
+.rc-widget-loader{
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+}
+
+#rate-calculator-submit {
+    transition: all .5s linear;
+    width: 116px;
+}
+
+#rc-widget-submit{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: all .5s linear;
+    width: 116px;
+    height: 40px;
+    margin-bottom: 0;
+}
+
+.rc-inactive {
+    background: #FAFAFA;
+    width: 80px!important;
+}
+
+.rc-inactive:hover {
+    background: #FAFAFA;
+}
+
+.rc-table, .rc-table tr, .rc-table td{
+    border: 0;
+}
+
+.rc-table{
+    margin-top: 25px;
+}
+
+.rc-table td{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color:#384248;
+}
+.rc-table .other-services{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.rc-table-head {
+    border-bottom: solid 1px #323538!important;
+}
+
+.rc-table-head td{
+    font-size: 18px;
+}
+
+.rc-table-footer td{
+    font-size: 20px;
+}
+
+.rc-table-footer {
+    border-top: solid 3px #323538!important;
+}
+
+.rc-table-footer td{
+    color:#222222;
+}
+
+.rc-table-footer b{
+    font-size: 16px;
+}
+
+.rc-table tr td:nth-child(1) {
+    width: 60%;
+}
+
+.rc-table tr td:nth-child(2) {
+    text-align: right;
+    width: 20%;
+}
+
+.rc-table tr td:nth-child(3) {
+    text-align: right;
+    width: 20%;
+}
+
+.rc-quoteparam{
+    color:#384248;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rc-quoteparam label{
+    display: inline-block;
+    width: 50%;
+}
+
+.rc-button-back {
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+.rc-button-back:hover, .rc-button-back:hover svg path{
+    color:#cfb795;
+    fill: #cfb795;
+}
+
+.rc-button-back svg{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 16px;
+    fill: black;
+}
+
+.rc-button-back span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.rc-button-edit {
+    margin-bottom: 0px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+
+.rc-button-edit:hover, .rc-button-edit:hover svg{
+    color:#cfb795;
+    fill: #cfb795;
+}
+
+.rc-button-edit svg{
+    height: 17px;
+    position: relative;
+    top: 2px;
+    margin-right: 3px;
+}
+
+.rc-quoteparam b {
+    font-size: 18px;
+}
+
+.rc-separator {
+    border-top: solid 1px #323538!important;
+    height: 1px;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.rc-widget {
+    width: 370px;
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    z-index: 9999999999999999999;
+}
+
+.rc-widget-poput-body .rc-col-6, .rc-widget-poput-body .rc-col-12, .rc-widget-poput-body .error-validation{
+    padding-bottom: 0!important;
+    margin-bottom: 0!important;
+}
+
+.rc-widget-openform {
+    width:50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.22);
+    padding: 10px 30px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 0;
+    opacity: 0.7;
+    transition: all .5s linear;
+}
+
+.rc-widget-openform:hover {
+    opacity: 1;
+}
+.rc-widget-popup {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.22);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.rc-widget-popup-header{
+    background-color: #1e252f;
+    color: white;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.rc-widget-popup-header svg {
+    margin-right: 10px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.rc-widget-popup-header svg:hover{
+    opacity: 1;
+}
+
+
+.rc-widget-poput-body, .rc-widget-poput-result{
+    height: 500px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.rc-widget-popup-body-inner,  .rc-widget-popup-result-inner{
+    height: 430px;
+    max-height: 430px;
+    overflow: auto;
+}
+
+.rc-widget-popup-result-inner .rc-col-12{
+    padding-bottom: 0!important;
+}
+
+.rc-widget-popup-body-footer, .rc-widget-popup-result-footer {
+    height: 70px;
+    max-height:70px;
+    background-color: #eeeeee;
+}
+
+.rc-widget-popup-body-footer .rc-col-12, .rc-widget-popup-result-footer .rc-col-12 {
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+    text-align:center;
+}
+
+.rc-widget-poput-result .rc-quoteparam label {
+    margin: 0;
+    font-size: 14px;
+}
+
+.rc-widget-poput-result .rc-quoteparam {
+    font-size: 14px;
+}
+
+.rc-widget-poput-result .rc-table {
+    margin-top: 10px;
+}
+.rc-widget-poput-result .rc-table tr td:nth-child(1) {
+    width: 50%;
+}
+
+.rc-widget-poput-result .rc-table tr td:nth-child(2) {
+    text-align: right;
+    width: 25%;
+}
+
+.rc-widget-poput-result .rc-table tr td:nth-child(3) {
+    text-align: right;
+    width: 25%;
+}
+
+.rc-widget-poput-result .rc-table-head{
+    font-size: 16px;
+}
+
+.rc-widget-poput-result .rc-table td{
+    font-size: 14px;
+}
+.rc-widget input {
+    margin: 0!important;
+}
+
+.rc-widget .input-group, .rc-widget select {
+    height: 40px;
+    padding: 10px 20px;
+}
+
+.rc-widget .input-group-addon {
+    height: 40px;
+    line-height: 40px;
+}
+
+.rc-widget-close{
+    display: inline-block;
+    float: right;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: -10px -15px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.rc-widget-close:hover{
+    opacity: 1;
+}
+
+.quotes__heading {
+    font-size: 36px;
+    text-align: center;
+}
+
+.quotes__subheading {
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn-custom, .btn-custom a {
+    background-color: #d8af79!important;
+    color:#424242!important;
+    transition: all 0.2s linear!important;
+    font-weight: 700;
+}
+
+.btn-custom:hover, .btn-custom:hover a {
+    background-color: #d8af79!important;
+    color: white!important;
+}
+
+.error-validation{
+    color: #e2574c;
+    display: none;
+}
+
+.error-validation img{
+    width: 15px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.rc-widget-submit-text a{
+  color: #fff;
+}
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a7acb6!important;
+    opacity: 1; /* Firefox */
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #a7acb6!important;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #a7acb6!important;
+}
+/* For State */
+.disable-state{
+  cursor: not-allowed;
+}
+.open-popup{
+  /*background-color: #d8af79;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  cursor: pointer;
+  padding: 5px;*/
+animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    left: 90%;
+    bottom: 5%;
+    display: flex;
+    z-index: 99999;
+    position: fixed;
+    transition: all 250ms ease-in-out 0s;
+    /* visibility: hidden; */
+    /* flex-direction: column-reverse;*/
+}
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+
+  65% {
+    transform: translate(0, 15px);
+  }
+
+  to {
+    transform: translate(0, -0px);
+  }
+
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* START TOOLTIP STYLES */
+[tooltip] {
+  position: relative; /* opinion 1 */
+  display: block;
+}
+
+/* Applies to all tooltips */
+[tooltip]::before,
+[tooltip]::after {
+  text-transform: none; /* opinion 2 */
+  font-size: .9em; /* opinion 3 */
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  display: none;
+  opacity: 0;
+}
+[tooltip]::before {
+  content: '';
+  border: 5px solid transparent; /* opinion 4 */
+  z-index: 1001; /* absurdity 1 */
+}
+[tooltip]::after {
+  content: attr(tooltip); /* magic! */
+  
+  /* most of the rest of this is opinion */
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  
+  /* 
+    Let the content set the size of the tooltips 
+    but this will also keep them from being obnoxious
+    */
+  min-width: 3em;
+  max-width: 21em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 1ch 1.5ch;
+  border-radius: .3ch;
+  box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
+  background: #cfb795;
+  color: black!important;
+  font-weight: bold;
+  z-index: 1000; /* absurdity 2 */
+}
+
+/* Make the tooltips respond to hover */
+[tooltip]:hover::before,
+[tooltip]:hover::after {
+  display: block;
+}
+
+/* don't show empty tooltips */
+[tooltip='']::before,
+[tooltip='']::after {
+  display: none !important;
+}
+
+/* FLOW: UP */
+[tooltip]:not([flow])::before,
+[tooltip][flow^="up"]::before {
+  bottom: 100%;
+  border-bottom-width: 0;
+  border-top-color: #333;
+}
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::after {
+  bottom: calc(100% + 5px);
+}
+[tooltip]:not([flow])::before,
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::before,
+[tooltip][flow^="up"]::after {
+  left: 50%;
+  transform: translate(-50%, -.5em);
+}
+
+/* FLOW: DOWN */
+[tooltip][flow^="down"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: #333;
+}
+[tooltip][flow^="down"]::after {
+  top: calc(100% + 5px);
+}
+[tooltip][flow^="down"]::before,
+[tooltip][flow^="down"]::after {
+  left: 50%;
+  transform: translate(-50%, .5em);
+}
+
+/* FLOW: LEFT */
+[tooltip][flow^="left"]::before {
+  top: 50%;
+  border-right-width: 0;
+  border-left-color: #cfb795;
+  left: calc(0em - 10px);
+  transform: translate(-.5em, -50%);
+}
+[tooltip][flow^="left"]::after {
+  top: 50%;
+  right: calc(100% + 10px);
+  transform: translate(-.5em, -50%);
+}
+
+/* FLOW: RIGHT */
+[tooltip][flow^="right"]::before {
+  top: 50%;
+  border-left-width: 0;
+  border-right-color: #333;
+  right: calc(0em - 5px);
+  transform: translate(.5em, -50%);
+}
+[tooltip][flow^="right"]::after {
+  top: 50%;
+  left: calc(100% + 5px);
+  transform: translate(.5em, -50%);
+}
+
+/* KEYFRAMES */
+@keyframes tooltips-vert {
+  to {
+    opacity: .9;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes tooltips-horz {
+  to {
+    opacity: .9;
+    transform: translate(0, -50%);
+  }
+}
+
+/* FX All The Things */ 
+[tooltip]:not([flow]):hover::before,
+[tooltip]:not([flow]):hover::after,
+[tooltip][flow^="up"]:hover::before,
+[tooltip][flow^="up"]:hover::after,
+[tooltip][flow^="down"]:hover::before,
+[tooltip][flow^="down"]:hover::after {
+  animation: tooltips-vert 300ms ease-out forwards;
+}
+
+[tooltip][flow^="left"]:hover::before,
+[tooltip][flow^="left"]:hover::after,
+[tooltip][flow^="right"]:hover::before,
+[tooltip][flow^="right"]:hover::after {
+  animation: tooltips-horz 300ms ease-out forwards;
+}
+@media (min-width: 768px){
+    .rc-body .rc-col-8{
+        width: 66.66666667%;
+        max-width: 66.66666667%;
+        padding: 10px 15px;
+    }
+
+    .rc-body .rc-col-6 {
+        width: 50%;
+        max-width: 50%;
+        padding: 10px 15px;
+    }
+
+    .rc-body .rc-col-4{
+        width: 33.33%;
+        max-width: 33.33%;
+        padding: 10px 15px;
+    }
+
+    .rc-body .rc-col-12{
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .quotes__heading{
+        font-size: 30px;
+    }
+
+    .rc-button-back{
+        float:none;
+        position: absolute;
+        left: 0;
+    }
+}
+
+
